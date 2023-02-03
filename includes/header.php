@@ -8,7 +8,7 @@
                 </button>
                 <a class="navbar-brand" >
 
-                    <img src="futa logo.jpeg" class= "img" style= "width:70px; height:70px;"/>
+                    <img src="assets/img/futa logo.jpeg" style="width:60px; height:"60px"; />
                 </a>
 
             </div>
