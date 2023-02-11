@@ -10,6 +10,7 @@
     background: linear-gradient(to top, rgba(0,0,0,0.65)50%,rgba(0,0,0,0.6)50%), url(futa-gate.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 
@@ -36,31 +37,40 @@ img{
     width: 400px;
     float: left;
     height: 70px;
+    margin-left: 80px;
 }
 
 ul{
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    list-style-type: none;
+    /* float: left; */
+    /* display: inline block; */
+    /* justify-content: center;
+    align-items: center; */
+    overflow: hidden;
 }
 
 ul li{
-    list-style: none;
-    margin-left: 100px;
-    margin-top: 27px;clear
-    
-    font-size: 14px;
     cursor: pointer;
+    float: left;
 }
 
 ul li a{
+    /* list-style: none; */
+    padding-left: 40px;
+    margin-top: 27px;
+    font-size: 14px;
+    display: block;
     text-decoration: none;
+    text-align: center;
     color: #fff;
     font-family: Arial;
     font-weight: bold;
     transition: 0.4s ease-in-out;
 }
+
+/* span.keeptogether {
+    white-space: nowrap;
+} */
 
 ul li a:hover{
     color: #ff7200;
@@ -69,7 +79,7 @@ ul li a:hover{
 .search{
     width: 330px;
     float: left;
-    margin-left: 570px;
+    margin-left: 470px;
     margin-top: 7px;
 }
 
